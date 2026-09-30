@@ -165,6 +165,25 @@ It demonstrates practical skills in **data preparation, exploratory analysis, SQ
 
 ---
 
+
+---
+
+# 🎥 Dashboard Demonstration
+
+### 📥 Explore the Dashboard
+
+The complete Power BI report is available in the **`Power BI`** folder.
+
+**Download the `.pbix` file → Open it in Microsoft Power BI Desktop → Explore the interactive dashboard**
+
+The report includes interactive slicers, DAX measures, Field Parameters, What-If analysis, Decomposition Tree, drill-downs, tooltips and cross-filtering.
+
+### 🎬 Video Demonstration
+
+For a quick visual walkthrough of the dashboard and project, visit my LinkedIn profile:
+
+🔗 **[Watch the project demonstration on LinkedIn](https://www.linkedin.com/in/harshita--mahajan)**
+
 # 👩‍💻 Author
 
 **Harshita Mahajan**
