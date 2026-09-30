@@ -67,7 +67,7 @@ The Power BI report brings the cleaned and analyzed data together into an intera
 
 Provides the project introduction, overall scope and dashboard navigation.
 
-![Welcome Page](Images/welcome-page.png)
+![Welcome Page](images/welcome-page.png)
 
 ---
 
@@ -77,7 +77,7 @@ Provides a high-level view of overall business performance through revenue, orde
 
 **Insight:** Provides a quick overview of overall business activity and performance trends.
 
-![Executive Overview](Images/executive-overview.png)
+![Executive Overview](images/executive-overview.png)
 
 ---
 
@@ -87,7 +87,7 @@ Analyzes revenue trends, order trends, sales performance and category-level sale
 
 **Insight:** Helps identify changes in sales performance and revenue contribution across categories and periods.
 
-![Sales Analytics](Images/sales-analytics.png)
+![Sales Analytics](images/sales-analytics.png)
 
 ---
 
@@ -97,7 +97,7 @@ Analyzes customer distribution, customer activity and geographic patterns.
 
 **Insight:** Helps understand customer concentration, activity and geographic distribution.
 
-![Customer Analytics](Images/customer-analytics.png)
+![Customer Analytics](images/customer-analytics.png)
 
 ---
 
@@ -113,7 +113,7 @@ Analyzes product categories, products sold, seller performance, revenue, average
 
 **Insight:** Enables comparison of product and seller performance using different business metrics.
 
-![Product & Seller Intelligence](Images/product-seller-intelligence.png)
+![Product & Seller Intelligence](images/product-seller-intelligence.png)
 
 ---
 
@@ -123,7 +123,7 @@ Analyzes delivery performance, freight values, payment types, payment values and
 
 **Insight:** Helps identify logistics and payment patterns affecting order performance.
 
-![Logistics & Payment Intelligence](Images/logistics-payment-intelligence.png)
+![Logistics & Payment Intelligence](images/logistics-payment-intelligence.png)
 
 ---
 
@@ -135,7 +135,7 @@ Demonstrates advanced Power BI functionality through interactive scenario and ro
 
 **Insight:** Allows exploration of discount scenarios and investigation of revenue drivers.
 
-![Advanced Analytics](Images/advanced-analytics.png)
+![Advanced Analytics](images/advanced-analytics.png)
 
 ---
 
@@ -145,7 +145,7 @@ Provides detailed product-level analysis using interactive tables and filtering.
 
 **Insight:** Allows deeper investigation and comparison of individual product information.
 
-![Product Details](Images/product-details.png)
+![Product Details](images/product-details.png)
 
 ---
 
