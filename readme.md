@@ -1,20 +1,11 @@
 # Enterprise E-Commerce Business Intelligence Solution
 
-An end-to-end E-Commerce Business Intelligence project using Excel, Python, SQL/MySQL and Power BI to transform raw e-commerce data into meaningful business insights and interactive dashboards.
+## 📌 About the Project
 
-## Project Scale
+This project is an end-to-end **E-Commerce Business Intelligence solution** developed to analyze customer, order, product, seller, sales, payment and logistics data.
+The project transforms raw e-commerce data into cleaned datasets, exploratory analysis, SQL-based business insights and an interactive Power BI dashboard for understanding business performance and identifying important trends and patterns.
 
-- 103,886 Customers
-- 99,441 Orders
-- 32,951 Products
-- 3,095 Sellers
-- 73 Product Categories
-
-## Project Workflow
-
-Raw Data → Python Data Cleaning → Exploratory Data Analysis → SQL/MySQL Analysis → Power BI Dashboard → Business Insights
-
-## Tools & Technologies
+## 🛠️ Technologies Used
 
 - Microsoft Excel
 - Python
@@ -28,119 +19,159 @@ Raw Data → Python Data Cleaning → Exploratory Data Analysis → SQL/MySQL An
 - Power BI
 - DAX
 
-## Project Structure
-```
-E-Commerce/
-├── Images/
-├── Power BI/
-├── Python/
-├── Raw Data/
-└── SQL/
-```
+## 📊 Dataset Scale
 
-## Module Analysis
+- 103,886 Customers
+- 99,441 Orders
+- 32,951 Products
+- 3,095 Sellers
+- 73 Product Categories
 
-Python Analysis
+---
 
-Python was used for data cleaning, validation, transformation, exploratory data analysis and visualization.
+# 🔍 Module Analysis
 
-Libraries used:
-Pandas, NumPy, Matplotlib, Seaborn and Plotly.
+## 🐍 Python — Data Cleaning & EDA
 
-SQL / MySQL Analysis
+Used Python to clean, validate, transform and explore the e-commerce datasets.
 
-SQL was used for customer, order, product, seller, revenue, payment and category analysis using filtering, aggregation, GROUP BY, JOINs and business-focused queries.
+**Tasks:** Data cleaning, missing-value handling, validation, transformation, EDA, visualization
 
-Cleaned analysis tables include:
+**Features/Tools:** Pandas, NumPy, Matplotlib, Seaborn, Plotly
 
-customer_clean
-order_clean
-order_items_clean
-order_payments_clean
-products_clean
-sellers_clean
-Power BI Dashboard
+---
 
-The Power BI report provides interactive analysis across the following dashboard pages:
+## 🗄️ SQL / MySQL — Business Analysis
 
-Welcome / Project Overview
-Executive Overview
-Sales Analytics
-Customer Analytics
-Product & Seller Intelligence
-Logistics & Payment Intelligence
-Advanced Analytics & Feature Showcase
-Product Details
-Executive Overview
+Used SQL to analyze customers, orders, products, sellers, revenue, payments and categories.
 
-Provides a high-level view of revenue, orders, sales trends and overall business performance.
+**Tasks:** Filtering, aggregation, GROUP BY, JOINs, sorting, business analysis
 
-Sales Analytics
+**Features/Tools:** SQL, MySQL, cleaned analysis tables
 
-Analyzes revenue trends, orders, sales performance and category-level sales patterns.
+**Cleaned Tables:**
+- `customer_clean`
+- `order_clean`
+- `order_items_clean`
+- `order_payments_clean`
+- `products_clean`
+- `sellers_clean`
 
-Customer Analytics
+---
 
-Analyzes customer distribution, customer activity, geographic patterns and customer-related sales trends.
+# 📊 Power BI Dashboard
 
-Product & Seller Intelligence
+The Power BI report brings the cleaned and analyzed data together into an interactive multi-page Business Intelligence dashboard.
+
+## 🏠 1. Welcome / Project Overview
+
+Provides the project introduction, overall scope and dashboard navigation.
+
+![Welcome Page](Images/welcome-page.png)
+
+---
+
+## 📈 2. Executive Overview
+
+Provides a high-level view of overall business performance through revenue, orders, sales trends and key KPIs.
+
+**Insight:** Provides a quick overview of overall business activity and performance trends.
+
+![Executive Overview](Images/executive-overview.png)
+
+---
+
+## 💰 3. Sales Analytics
+
+Analyzes revenue trends, order trends, sales performance and category-level sales patterns.
+
+**Insight:** Helps identify changes in sales performance and revenue contribution across categories and periods.
+
+![Sales Analytics](Images/sales-analytics.png)
+
+---
+
+## 👥 4. Customer Analytics
+
+Analyzes customer distribution, customer activity and geographic patterns.
+
+**Insight:** Helps understand customer concentration, activity and geographic distribution.
+
+![Customer Analytics](Images/customer-analytics.png)
+
+---
+
+## 📦 5. Product & Seller Intelligence
 
 Analyzes product categories, products sold, seller performance, revenue, average product price and average freight value.
 
-Includes dynamic Field Parameter analysis for:
+**Dynamic Field Parameter Analysis:**
+- Revenue
+- Products Sold
+- Average Product Price
+- Average Freight Value
 
-Revenue
-Products Sold
-Average Product Price
-Average Freight Value
-Logistics & Payment Intelligence
+**Insight:** Enables comparison of product and seller performance using different business metrics.
+
+![Product & Seller Intelligence](Images/product-seller-intelligence.png)
+
+---
+
+## 🚚 6. Logistics & Payment Intelligence
 
 Analyzes delivery performance, freight values, payment types, payment values and order status.
 
-Advanced Analytics & Feature Showcase
+**Insight:** Helps identify logistics and payment patterns affecting order performance.
 
-Demonstrates advanced Power BI functionality including What-If discount simulation, dynamic DAX measures, scenario analysis, Decomposition Tree and Smart Narrative.
+![Logistics & Payment Intelligence](Images/logistics-payment-intelligence.png)
 
-Product Details
+---
 
-Provides detailed product-level analysis using interactive tables, filtering, drill-down and conditional formatting.
+## 🧠 7. Advanced Analytics & Feature Showcase
 
-Power BI Features
-KPI Cards
-Interactive Slicers
-Filters
-DAX Measures
-Field Parameters
-What-If Parameters
-Decomposition Tree
-Smart Narrative
-Conditional Formatting
-Drill-down
-Tooltips
-Navigation Buttons
-Scenario Analysis
-Cross-filtering
-Interactive Tables
-Dashboard Screenshots
+Demonstrates advanced Power BI functionality through interactive scenario and root-cause analysis.
 
-Dashboard screenshots are available in the Images/ folder.
+**Features:** What-If Discount Simulation, Dynamic DAX Measures, Scenario Analysis, Decomposition Tree, Smart Narrative
 
-Project Outcome
+**Insight:** Allows exploration of discount scenarios and investigation of revenue drivers.
 
-This project demonstrates an end-to-end Business Intelligence workflow from raw data preparation and Python EDA to SQL analysis and interactive Power BI reporting.
+![Advanced Analytics](Images/advanced-analytics.png)
 
-Author
+---
 
-Harshita Mahajan
+## 🔎 8. Product Details
 
-B.Tech Computer Science & Engineering
+Provides detailed product-level analysis using interactive tables and filtering.
+
+**Insight:** Allows deeper investigation and comparison of individual product information.
+
+![Product Details](Images/product-details.png)
+
+---
+
+# ⚡ Power BI Features Used
+
+KPI Cards, Interactive Slicers, Filters, DAX Measures, Field Parameters, What-If Parameters, Decomposition Tree, Smart Narrative, Conditional Formatting, Drill-down, Tooltips, Navigation Buttons, Scenario Analysis, Cross-filtering, Interactive Tables
+
+---
+
+# 🎯 Project Outcome
+
+The project demonstrates a complete Business Intelligence workflow:
+
+**Raw Data → Python Cleaning & EDA → SQL/MySQL Analysis → Power BI → Business Insights**
+
+It demonstrates practical skills in **data preparation, exploratory analysis, SQL business analysis, DAX, dashboard development, data visualization and Business Intelligence reporting.**
+
+---
+
+# 👩‍💻 Author
+
+**Harshita Mahajan**
+
+B.Tech Computer Science & Engineering  
 Guru Nanak Dev University
 
-LinkedIn: https://www.linkedin.com/in/harshita--mahajan
+🔗 **LinkedIn:** https://www.linkedin.com/in/harshita--mahajan
 
-GitHub: https://github.com/harshita-mahajan-02
-
-
-
-
-
+🔗 **GitHub:** https://github.com/harshita-mahajan-02
